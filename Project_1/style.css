@@ -127,11 +127,13 @@ html, body{
 
 /* styling the bottom of the site */
 #footer{
-    display: flex;
     height: 100px;
     width: 100%;
+
+    position: fixed;
     bottom: 0.5%;
-    position:absolute;
+    
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 5%;
