@@ -130,7 +130,7 @@ html, body{
     height: 100px;
     width: 100%;
 
-    position: fixed;
+    position: absolute;
     bottom: 0.5%;
     
     display: flex;
