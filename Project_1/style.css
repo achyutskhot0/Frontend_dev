@@ -141,3 +141,11 @@ html, body{
     background-color: rgb(200, 252, 252)
     
 }
+#git:hover{
+    border: 1.5px solid black;
+    padding: 2px 3px;
+}
+#login:hover{
+    background-color: black;
+    color: white;
+}
