@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
     font-weight: 50;
+
 }
 html, body{
     height: 100%;
@@ -42,10 +43,11 @@ html, body{
     padding: 35px 30px;
 }
 #intro h1{
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: -1px;
     line-height: 80px;
 }
+
 #place{
 
     margin-top: 40px;
@@ -54,22 +56,26 @@ html, body{
     justify-content: space-between;
     
 }
+
 #place h3,#place h4{
     font-size: 25px;
     
 }
+
 #bg_p{
     height: 70vh;
     width: 100%;
 }
+
 #bg_p>img{
     height: 70vh;
     width: 100%;
     object-fit: cover;
     
 }
+
 #about{
-    height: 60vh;
+    height: 50vh;
     width:100%;
 
     background-color: azure;
@@ -77,16 +83,19 @@ html, body{
     align-items: center;
     justify-content: space-between;
     padding: 50px 60px;
+
 }
+
 #about h2{
 
     width: 66%;
     height: 100%;
-    font-size: 77px;
+    font-size: 58px;
 
     line-height: 90px;
     letter-spacing: -2px;
 }
+
 #about_part2{
     
     border-left: 1px solid black;
@@ -98,6 +107,7 @@ html, body{
     padding: 20px 70px;
     justify-content: space-between;
 }
+
 #icons i{
     font-size: 25px;
     padding: 7px;
@@ -106,6 +116,173 @@ html, body{
     border-radius: 50px;
     margin-right: 7px;
 }
+
 #icons i:hover{
     font-size: 30px;
+}
+/* 
+stlying of work  */
+#work{
+    height: 65vh;
+    width: 100%;
+    border-top: 1px solid black;
+    display: flex;
+    padding: 50px 50px;
+    background-color: azure;
+}
+
+#work1{
+    width: 35%;
+    height: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+    padding-right: 40px;
+    border-right: 1px solid black;
+}
+
+#work2{
+    width: 65%;
+    height: 100%;
+}
+
+#work1 h3{
+    font-size: 25px;
+}
+
+#work1 i{
+    font-size: 25px;
+}
+
+#work2{
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.row:nth-child(1){
+    border-bottom: 1px solid black;
+}
+
+.row .elem{
+    
+    width: 50%;
+    height: 100%;
+}
+
+.row .elem:nth-child(1){
+    border-right: 1px solid black;
+}
+
+.row .elem:nth-child(2){
+    padding: 0px 50px;
+}
+
+.row .elem h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.row .elem p{
+    font-size: 20px;
+}
+
+.row .elem:nth-child(1){
+
+    padding-right: 25px;
+}
+
+#place>h4{
+    border: 1px solid azure;
+    padding: 7px;
+}
+
+#place>h4:hover{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+}
+
+/* footer starts here */
+
+footer{
+    border-top: 2px solid gray;
+    background-color: gainsboro;
+    width: 96%;
+
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Mission{
+    height: 70%;
+
+    border-right: 2px solid black;
+    width: 45%;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+#copyright{
+
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#Mission>h2{
+    font-size: 30px;
+
+    width: 40%;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+#Mission>p{
+    font-size: 18px;
+}
+
+#links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 70%;
+
+}
+
+.link{
+    padding: 10px;
+
+    line-height: 35px;
+
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+#foot{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+}
+#copyright{
+    font-size: 18px;
 }
